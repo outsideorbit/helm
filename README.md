@@ -1,2 +1,2 @@
-# repo-template
-Generic repository template
+# helm
+Helm chart repository.
