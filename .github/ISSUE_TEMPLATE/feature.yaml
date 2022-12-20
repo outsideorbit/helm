@@ -1,0 +1,46 @@
+name: Feature
+description: Feature request
+labels:
+  - enhancement
+  - refine
+body:
+  - id: context
+    type: textarea
+    attributes:
+      label: Context of the feature
+      description: |
+        Give some context as to what the feature is and why it is wanted.
+      placeholder: A dev, wants to do ... so they can ...
+    validations:
+      required: true
+  - id: out-of-scope
+    type: textarea
+    attributes:
+      label: Out of scope
+      description: |
+        Any items that are considered out of scope for this effort.
+      placeholder: |
+        e.g,
+        * Does not do this specific task
+    validations:
+      required: false
+  - id: acceptance-criteria
+    type: textarea
+    attributes:
+      label: Acceptance criteria
+      description: Expectations of what the effort provides at completion.
+      placeholder: |
+        e.g,
+        * Tests are added
+        * Documentation is provided
+    validations:
+      required: true
+  - id: tech-notes
+    type: textarea
+    attributes:
+      label: Tech notes
+      description: |
+        Any technical notes that might help understand the context of the 
+        effort.
+    validations:
+      required: false
